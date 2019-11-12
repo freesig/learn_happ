@@ -1,0 +1,34 @@
+site_name: Learn hApp 
+
+# Repository
+repo_url: https://github.com/freesig/learn_happ
+
+nav:
+  - Usecases: usecases.md
+
+# Theme
+theme:
+  name: 'material'
+  feature:
+    tabs: true
+  font:
+    text: 'Work Sans'
+    code: 'Roboto Mono'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - meta
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.tilde
+  - pymdownx.emoji
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.extra
+  - pymdownx.betterem
