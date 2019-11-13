@@ -5,6 +5,7 @@ repo_url: https://github.com/freesig/learn_happ
 
 nav:
   - Usecases: usecases.md
+  - Distribute: distribute.md
 
 # Theme
 theme:
